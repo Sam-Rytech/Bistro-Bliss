@@ -33,10 +33,10 @@ export default function Footer() {
         <div>
           <h4 className="mb-4 font-semibold text-white">Follow us on Instagram</h4>
           <div className="grid grid-cols-2 gap-2">
-            <img src="/insta1.jpg" className="rounded-md" />
-            <img src="/insta2.jpg" className="rounded-md" />
-            <img src="/insta3.jpg" className="rounded-md" />
-            <img src="/insta4.jpg" className="rounded-md" />
+            <img src="/Footer1.png" className="rounded-md" />
+            <img src="/Footer2.png" className="rounded-md" />
+            <img src="/Footer3.png" className="rounded-md" />
+            <img src="/Footer4.png" className="rounded-md" />
           </div>
         </div>
       </div>
