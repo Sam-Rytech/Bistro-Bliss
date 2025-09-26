@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/About/Footer";
+import Footer from "@/components/Footer";
 import AboutHero from "@/components/About/AboutHero";
 import VideoSection from "@/components/About/VideoSection";
 import Features from "@/components/About/Features";
