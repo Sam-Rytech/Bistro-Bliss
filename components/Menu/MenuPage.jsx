@@ -87,7 +87,6 @@ export default function MenuPage() {
         ))}
       </div>
 
-      <AppOrder />
     </div>
   )
 }
