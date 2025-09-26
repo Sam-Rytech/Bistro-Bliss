@@ -1,7 +1,7 @@
 export default function Delivery() {
   return (
     <section className="grid items-center max-w-6xl gap-12 px-6 py-20 mx-auto md:grid-cols-2">
-      <img src="/delivery.jpg" alt="Delivery service" className="rounded-lg shadow-lg" />
+      <img src="/delivery.png" alt="Delivery service" className="rounded-lg shadow-lg" />
       <div>
         <h3 className="mb-4 text-3xl font-bold">Fastest Food Delivery in City</h3>
         <p className="mb-4 text-gray-600">
