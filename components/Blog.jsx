@@ -1,7 +1,7 @@
 const posts = [
-  { title: "The secret tips to prepare a perfect burger", date: "Jan 5, 2023", img: "/blog1.jpg" },
-  { title: "How to prepare the perfect french fries", date: "Jan 5, 2023", img: "/blog2.jpg" },
-  { title: "6 pizza restaurants you should visit", date: "Jan 5, 2023", img: "/blog3.jpg" },
+  { title: "The secret tips to prepare a perfect burger", date: "Jan 5, 2023", img: "/blog1.png" },
+  { title: "How to prepare the perfect french fries", date: "Jan 5, 2023", img: "/blog2.png" },
+  { title: "6 pizza restaurants you should visit", date: "Jan 5, 2023", img: "/blog3.png" },
 ];
 
 export default function Blog() {
