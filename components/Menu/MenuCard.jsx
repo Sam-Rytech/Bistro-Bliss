@@ -6,7 +6,7 @@ export default function MenuCard({ img, title, price }) {
       <img src={img} alt={title} className="w-full h-48 object-cover" />
       <div className="p-4">
         <h4 className="text-red-700 font-semibold text-lg">
-          ${price.toFixed(2)}
+          {typeof price === 'number' ? `$${price.toFixed(2)}` : 'Price N/A'}
         </h4>
         <h3 className="text-lg font-bold mt-1">{title}</h3>
         <p className="text-gray-600 text-sm mt-1">
