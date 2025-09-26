@@ -15,6 +15,7 @@ export default function Menu() {
             <img src={item.icon} alt={item.title} className="w-12 h-12 mx-auto mb-4" />
             <h4 className="mb-2 text-xl font-semibold">{item.title}</h4>
             <p className="text-gray-600">{item.desc}</p>
+            <div className="mx-auto mt-5 text-red-400">Explore Menu</div>
           </div>
         ))}
       </div>
