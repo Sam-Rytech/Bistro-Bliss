@@ -6,7 +6,7 @@ export default function Navbar() {
         <img src="/Bistro-Logo.png" alt="Bistro Bliss"/>
         <nav className="hidden gap-8 text-gray-700 md:flex">
           <a href="#" className="hover:text-red-600">Home</a>
-          <a href="#" className="hover:text-red-600">About</a>
+          <a href="/about" className="hover:text-red-600">About</a>
           <a href="#" className="hover:text-red-600">Menu</a>
           <a href="#" className="hover:text-red-600">Pages</a>
           <a href="#" className="hover:text-red-600">Contact</a>
