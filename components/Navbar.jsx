@@ -2,7 +2,8 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 z-50 w-full bg-white shadow-sm">
       <div className="container flex items-center justify-between px-6 py-4 mx-auto">
-        <h1 className="text-2xl font-bold text-red-600">Bistro Bliss</h1>
+        
+        <img src="/Bistro-Logo.png" alt="Bistro Bliss"/>
         <nav className="hidden gap-8 text-gray-700 md:flex">
           <a href="#" className="hover:text-red-600">Home</a>
           <a href="#" className="hover:text-red-600">About</a>
