@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section className="grid items-center max-w-6xl gap-12 px-6 py-20 mx-auto md:grid-cols-2">
-      <img src="/about.jpg" alt="About us" className="rounded-lg shadow-lg" />
+      <img src="/about.png" alt="About us" className="rounded-lg shadow-lg" />
       <div>
         <h3 className="mb-4 text-3xl font-bold">We provide healthy food for your family</h3>
         <p className="mb-6 text-gray-600">
