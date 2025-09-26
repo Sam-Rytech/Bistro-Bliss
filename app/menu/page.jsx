@@ -1,6 +1,7 @@
 import Footer from '@/components/Home/Footer'
 import Navbar from '@/components/Home/Navbar'
 import MenuPage from '@/components/Menu/MenuPage'
+import MenuFilter from '@/components/Menu/MenuFilter'
 import React from 'react'
 
 const Menu = () => {
@@ -9,6 +10,7 @@ const Menu = () => {
       <Navbar />
       <Footer />
       <MenuPage />
+      <MenuFilter />
     </div>
   )
 }
