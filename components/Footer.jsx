@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="py-12 mt-20 text-gray-400 bg-gray-900">
       <div className="grid max-w-6xl grid-cols-1 gap-12 px-6 mx-auto md:grid-cols-4">
         <div>
-          <h2 className="mb-4 text-2xl font-bold text-white">Bistro Bliss</h2>
+          <img src="/FooterLogo.png" alt="Bistro Bliss"/>
           <p className="mb-4 text-sm">
             Indulge in delicious food and enjoy the best dining experience.
           </p>
