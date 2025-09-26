@@ -14,7 +14,7 @@ const apps = [
 
 export default function AppOrder() {
   return (
-    <section className="mt-16 flex flex-col items-center gap-10">
+    <section className="mt-16 flex flex-col items-center gap-10 bg-[#f9f9f7]">
       <div className="max-w-xl text-center">
         <h2 className="text-2xl font-bold">You can order through apps</h2>
         <p className="text-gray-600 mt-2">
@@ -23,13 +23,13 @@ export default function AppOrder() {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 items-center">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-3 gap-20 items-center">
         {apps.map((app) => (
           <img
             key={app}
-            src={`/assets/apps/${app}.png`}
+            src={`/Menu/${app}.png`}
             alt={app}
-            className="max-w-[120px] h-auto mx-auto"
+            className="max-w-[150px] h-auto mx-auto p-5 shadow-md hover:shadow-xl transition rounded-md"
           />
         ))}
       </div>
