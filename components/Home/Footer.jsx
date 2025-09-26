@@ -41,7 +41,7 @@ export default function Footer() {
         </div>
       </div>
       <p className="mt-8 text-sm text-center text-gray-500">
-        © 2023 Bistro Bliss. All rights reserved.
+        © 2025 Bistro Bliss. All rights reserved.
       </p>
     </footer>
   );
