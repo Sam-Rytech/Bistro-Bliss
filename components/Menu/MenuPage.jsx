@@ -72,8 +72,8 @@ export default function MenuPage() {
       : menuItems.filter((item) => item.category === activeCategory)
 
   return (
-    <div className="px-6 py-12 text-center">
-      <h2 className="text-4xl font-serif font-bold text-gray-900">Our Menu</h2>
+    <div className="px-6 py-12 text-center mt-20">
+      <h2 className="text-6xl font-serif font-bold text-gray-900">Our Menu</h2>
       <p className="mt-2 text-gray-600 max-w-2xl mx-auto">
         We consider all the drivers of change gives you the components you need
         to change to create a truly happens.
