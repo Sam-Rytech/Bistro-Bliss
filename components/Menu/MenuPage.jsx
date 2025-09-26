@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from 'react'
 import MenuFilter from './MenuFilter'
 import MenuCard from './MenuCard'
