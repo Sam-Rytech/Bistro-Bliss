@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <header className="fixed top-0 left-0 z-50 w-full bg-white shadow-sm">
+    <header className="fixed top-0 left-0 z-50 w-full bg-white">
       <div className="container flex items-center justify-between px-6 py-4 mx-auto">
         
         <img src="/Bistro-Logo.png" alt="Bistro Bliss"/>
