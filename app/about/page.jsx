@@ -1,11 +1,11 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import AboutHero from "@/components/About/AboutHero";
-import VideoSection from "@/components/About/VideoSection";
-import Features from "@/components/About/Features";
-import AboutInfo from "@/components/About/AboutInfo";
-import Stats from "@/components/About/Stats";
-import Testimonials from "@/components/About/Testimonials";
+import Navbar from '@/components/Home/Navbar'
+import Footer from '@/components/Home/Footer'
+import AboutHero from '@/components/About/AboutHero'
+import VideoSection from '@/components/About/VideoSection'
+import Features from '@/components/About/Features'
+import AboutInfo from '@/components/About/AboutInfo'
+import Stats from '@/components/About/Stats'
+import Testimonials from '@/components/About/Testimonials'
 
 export default function AboutPage() {
   return (
@@ -19,5 +19,5 @@ export default function AboutPage() {
       <Testimonials />
       <Footer />
     </main>
-  );
+  )
 }

@@ -1,14 +1,14 @@
-"use client"
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import Menu from "@/components/Menu";
-import About from "@/components/About";
-import Services from "@/components/Services";
-import Delivery from "@/components/Delivery";
-import Testimonials from "@/components/Testimonials";
-import Blog from "@/components/Blog";
-import Footer from "@/components/Footer";
-import { use } from "react";
+'use client'
+import Navbar from '@/components/Home/Navbar'
+import Hero from '@/components/Home/Hero'
+import Menu from '@/components/Home/Menu'
+import About from '@/components/Home/About'
+import Services from '@/components/Home/Services'
+import Delivery from '@/components/Home/Delivery'
+import Testimonials from '@/components/Home/Testimonials'
+import Blog from '@/components/Home/Blog'
+import Footer from '@/components/Home/Footer'
+import { use } from 'react'
 
 export default function HomePage() {
   return (
@@ -23,5 +23,5 @@ export default function HomePage() {
       <Blog />
       <Footer />
     </main>
-  );
+  )
 }
