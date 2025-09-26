@@ -3,6 +3,7 @@ import Navbar from '@/components/Home/Navbar'
 import MenuPage from '@/components/Menu/MenuPage'
 import MenuFilter from '@/components/Menu/MenuFilter'
 import MenuCard from '@/components/Menu/MenuCard'
+import AppOrder from '@/components/Menu/AppOrder'
 import React from 'react'
 
 const Menu = () => {
@@ -13,6 +14,7 @@ const Menu = () => {
       <MenuPage />
       <MenuFilter />
       <MenuCard />
+      <AppOrder />
     </div>
   )
 }
